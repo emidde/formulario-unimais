@@ -1,156 +1,103 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap');
 
 *{
-    font-family: 'Lato', sans-serif !important;
-    box-sizing: border-box;
-    padding: 0;
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';   
 }
 
-a {
-    text-decoration: none;
+p{
+    color: white;
+    font-weight: 300; 
 }
 
-header{
-    border-bottom: 3px solid rgb(228, 228, 228);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem 1rem 1rem;
+html,
+body {
+    background-color: black;
+    margin: 1rem 2rem 2rem 2rem;
 }
 
-.button-formulario {
-    padding-top: 1rem;
+.img-logo {
     text-align: center;
 }
 
-.button-formulario button{
-    font-weight: 700;
-    margin-top: 1.5rem;
-    width: 18rem;
-    height: 3.5rem;
-    border-radius: 1rem;
+.img-logo img{
+    width: 45%;
+}
+
+main{
+    padding-top: 2.5rem;
+}
+
+.text {
+    text-align: center;
+}
+
+input {
+    width: 90%;
+    height: 2.2rem;
+    background: none;
+    border-bottom: 1px grey solid !important;
     border: none;
-    background: #ff2c3d;
     color: white;
-    
+    font-weight: 300;
+    font-size: 18px;
 }
 
-.frase-curso {
-    padding: 15px;
+.text-title {
     padding-top: 2rem;
-    font-weight: 700;
-    text-align: center;
 }
 
-.card {
-    max-width: 19rem;
-    text-align: center;
-    margin: 2rem 3rem 1rem 3rem;
+select {
+    width: 90%;
+    margin-top: 1rem;
+    height: 2.2rem;
+    background: none;
+    border-bottom: 1px grey solid !important;
+    border: none;
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
 }
 
-form {
-    padding: 1rem 2rem 2rem 2rem;
+select option {
+    background-color: black;
+    font-weight: 300;
 }
 
-.input-tema {
-    font-weight: 700;
-    color: #ff2c3d
-
+.button-sub{
+    margin-top: 3rem;
 }
 
-.form-control{
-    margin-top: 10px;
-}
-
-.background-imagem img {
+.button-sub button {
     width: 100%;
-    position: absolute;
-    height: 25%;
-    max-height: 35%;
-}
-
-.text-grad {
-    position: absolute;
-    padding: 5rem 0rem 0rem 2rem;
+    height: 2.5rem;
+    background: linear-gradient(to left,red, black);    
     color: white;
+    border: none;
+    border-radius: 2rem;
 }
 
-.text-grad p {
-    padding-top: 7px;
-    font-weight: 700;
-    font-size: 22px;
-
+nav{
+    margin-top: 3rem;
 }
 
-.content-price {
-    margin: 17.5rem 1rem 1rem 2rem;
-}
-
-.content-price p {
-    padding-top: 10px;
-}
-
-.desconto {
-    color: #ff2c3d;
-}
-
-.price-principal {
-    font-size: 1.5rem;
-}
-
-.chamada {
-    font-size: 22px;
-    font-weight: 700;
-    padding-top: 30px;
-}
-
-.sobre-curso {
-    padding: 1rem 2rem 2rem 2rem;
-    text-align: justify;
-}
-
-.sobre-curso p{
-    padding-top: 20px;
-}
-
-.informations {
+.welcome{
     text-align: center;
-    margin-bottom: 2rem;
+    padding-bottom: 2rem;
 }
 
-.informations h1{
-    color: #0f5b33;
-    font-family: 'Lato','Helvetica Neue',Helvetica,Arial,sans-serif;
-    font-weight: 900;
-    font-size: 80px;
-    line-height: .9;
+.redes-sociais{
+    margin: 0em 6rem 0rem 6rem;
+    text-align: center;
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
 }
 
-.carga-horaria {
-    margin-top: 20px;
-}
-
-.grade-curricular {
-    margin: 1rem 6rem 2rem 6rem;
-}
-
-.grade-curricular a {
-    color: white;
-    text-decoration: none !important;
-}
-
-.informations h3 {
-    font-size: 3rem;
-    font-weight: 900;
-    color: #0f5b33;
-}
-
-.consultor {
-    margin-top: 30px;
+.redes-sociais img {
+    width: 70%;
 }
 
 
