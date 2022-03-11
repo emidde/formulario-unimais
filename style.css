@@ -15,7 +15,7 @@ p{
 html,
 body {
     background-color: black;
-    margin: 1rem 2rem 2rem 2rem;
+    margin: 1rem 1rem 2rem 1rem;
 }
 
 .img-logo {
@@ -100,4 +100,14 @@ nav{
     width: 70%;
 }
 
+@media screen and (min-width: 800px) {
+    html,
+body {
+    background-color: black;
+    margin: 1rem 2rem 2rem 2rem;
+    margin: 1rem auto;
+    width: 100%;
+    max-width: 1000px;
+};
+}
 
