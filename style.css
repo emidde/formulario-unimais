@@ -76,7 +76,7 @@ select option {
     background: linear-gradient(to left,red, black);    
     color: white;
     border: none;
-    border-radius: 2rem;
+    border-radius: 1rem;
 }
 
 nav{
